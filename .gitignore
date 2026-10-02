@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Ignorar carpetas de datos de imágenes
+*.jpg
+*.png
+*.jpeg

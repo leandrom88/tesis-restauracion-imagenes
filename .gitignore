@@ -220,3 +220,29 @@ __marimo__/
 *.jpg
 *.png
 *.jpeg
+
+# Entornos virtuales y Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.env
+
+# Archivos pesados de datos e imágenes (NO subir a GitHub)
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+data/raw/
+data/processed/
+data/lujan_real/
+
+# Checkpoints y pesos de modelos
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+models/
+runs/
